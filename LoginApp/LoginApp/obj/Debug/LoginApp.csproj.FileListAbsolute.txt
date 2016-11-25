@@ -1,0 +1,11 @@
+B:\Guitar Project\LoginApp\LoginApp\bin\Debug\LoginApp.exe.config
+B:\Guitar Project\LoginApp\LoginApp\bin\Debug\LoginApp.exe
+B:\Guitar Project\LoginApp\LoginApp\bin\Debug\LoginApp.pdb
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.csprojResolveAssemblyReference.cache
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.Form1.resources
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.Properties.Resources.resources
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.csproj.GenerateResource.Cache
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.exe
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.pdb
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.Menu.resources
+B:\Guitar Project\LoginApp\LoginApp\obj\Debug\LoginApp.ForgotPass.resources
