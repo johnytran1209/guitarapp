@@ -1,0 +1,17 @@
+main menu
+for employee:
+--look at the employee list (without the password or security options of course)
+--look at the stock list (able to filter by string of word that categorised by type(ac/cl type), wood type, brand, or model name)
+--be able to create a sale bill. (create the bill in excel, then bring it to word then to pdf for email and printing, do not give out raw office files as they are easily editted)
+--be able to see the sale's history
+--input one new item (input item does not mean that he/she can add in or take away the stock number, only fill in the specs that relate to the new item)
+--able to change their password or security question and answer
+
+for manager:
+--be able to make a loadin bill (same with sale bill, however give option to take excel or pdf, as those are needed for accountant to take care of tax problem)
+--as they do the loadin bill of course they can add in the stock list
+--look at the loadin's history
+
+for master:
+--be able to add and remove employee or manager account(delete entree in database)
+--reset password of certain employee in case of forgotten password and unable to retrieve by "forgot password" function
