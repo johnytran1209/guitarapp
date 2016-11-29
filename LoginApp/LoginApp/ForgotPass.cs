@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace LoginApp
 {
@@ -26,11 +27,7 @@ namespace LoginApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ad\Documents\Data.mdf;Integrated Security=True;Connect Timeout=30");
-            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) From LOGIN where ANSWER='" + textBox1.Text + "'", con);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            if (dt.Rows[0][0].ToString = "1")
+            /*if (dt.Rows[0][0].ToString = "1")
             {
                MessageBox.Show("Your Password have been reset to 'NamelessGuitar'"); 
              * this.Hide();
@@ -44,7 +41,16 @@ namespace LoginApp
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ad\Documents\Data.mdf;Integrated Security=True;Connect Timeout=30");
+            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) From LOGIN where USERNAME='" + textBox2.Text + "'and EMAIL='" + textBox3.Text + "'", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            if (dt.Rows[0][0].ToString() == "1")
+            {
+                con.Open();
+                //MessageBox.Show("Good");
+                //label5.Text=;
+            }
         }
     }
 }
