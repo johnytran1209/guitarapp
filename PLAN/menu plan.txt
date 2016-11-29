@@ -1,5 +1,6 @@
 main menu
 for employee:
+--able to change their own password
 --look at the employee list (without the password or security options of course)
 --look at the stock list (able to filter by string of word that categorised by type(ac/cl type), wood type, brand, or model name)
 --be able to create a sale bill. (create the bill in excel, then bring it to word then to pdf for email and printing, do not give out raw office files as they are easily editted)
