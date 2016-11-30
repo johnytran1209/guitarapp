@@ -1,0 +1,14 @@
+1. Cong viec hien tai
+
+- Thiet ke CSDL
+- Ve~ giao dien = mockup (tat ca chuc nang cua chuong trinh)
+- Viet truy van cho tung chuc nang (doc them store procedure)
+- Chia task (chuc nang ct) cho cac thanh vien cu the
+- Set up git, github, cac quy dinh lam teamwork
+- Viet tai lieu mo ta cac chuc nang va ban thiet ke cua chuong trinh (bao cao)
+
+2. Cong viec sap toi
+
+- Cach to chuc ct
+- Giao dien do hoa
+- Cach ket noi CSDL

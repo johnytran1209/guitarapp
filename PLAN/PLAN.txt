@@ -1,0 +1,95 @@
+GUITAR "THÙNG"
+
+
+GUITAR(MADAN,MDLDAN, HIEU, MALOAI, MANCC)
+MADAN= ma cua dan guitar (ex: GTRxxxx)
+MDLDAN= ten cua dan (ex: Yamaha "FG350")
+HIEU= ten cua hieu dan (ex: "YAMAHA" FG350
+MALOAI= loai dan gi(ex: CL = classical/ EAG= Electric acoustic guitar...)
+MANCC= ma cua ncc(ex: VT=>VIET THUONG/ YM=YAMAHA VIETNAM/ RL=ROLAND USA..)
+
+
+LOAIDAN(MALOAI,TENLOAI)
+MALOAI = 'nhu tren'
+TENLOAI = 'giai thich maloai ra nhu tren' 
+
+
+GOTOP(MATOP, TENTOP)
+MATOP = ma de lam go top
+TENTOP = ten loai go lam top
+||
+GOSIDE(MASIDE, TENSIDE)
+||
+GOBACK(MABACK, TENBACK)
+||
+GONECK(MANECK, TEN NECK)
+||
+GOFING(MAFING, TENFING)
+||
+THONGSO(MADAN, MATOP, MASIDE, MABACK, MANECK, MAFING)
+
+NHACC(MANCC,TENNCC,DCNCC,DTNCC)
+MANCC= ma cua ncc(ex: VT=>VIET THUONG/ YM=YAMAHA VIETNAM/ RL=ROLAND USA..)
+TENCC= ten cua ncc(Vietthuong, yamaha, taylor, gibson, fender...)
+DCNCC= dia chi cua ncc
+DTNCC= dt cua ncc tai vietnam
+
+
+KH(MAKH,TENKH,DCKH,DTKH,EMKH)
+MAKH= ma cua kh (ex:khlxxx=>khach hang le, khsxxx=>khach hang si)
+TENKH= ten cua kh (ex: nguyen van a)
+DCKH= dia chi cua kh
+DTKH= dien thoai cua kh
+EMKH=
+
+DDH(SODDH, NGAYDH, MANCC)
+SODDH= so serie cho don dat hang
+NGAYDH= ngay lam don dat hang
+MANCC= ||
+
+CT_DDH(SODDH, MADAN, SLDAT)
+SODDH= ||
+MADAN= ||
+SLDAT= ||
+
+PHIEUGH(SOPGH, NGAYGH, SODDH)
+SOPGH= so cua phieu giao hang moi lan nhap kho (auto i++ moi lan nhap kho)
+NGAYGH= ngay giao hang khi nhap kho
+SODDH= ||
+
+CT_PGH(SOPGH, MADAN, SLGIAO, DGGIAO)
+SOPGH= ||
+MADAN= ||
+SLGIAO= ||
+DGGIAO= ||
+
+HOADON(SOHD, MADAN, SLDAT, DGBAN, MAKH, NGAYMUA)
+SOHD = ||
+MADAN = ||
+SLDAT = ||
+DGBAN = ||
+NGAYMUA = NGAY MUA HANG
+
+PHIEUBH(SOPBH, NGAYMUA, HBH, SOHD)
+SOPBH= so pbh dc l?p ra v?i so hoa don (hoa don++ = pbh++)
+NGAYMUA= ||
+HBH= han cua bao hanh tinh theo thang (ex: 36,24,12,6)
+SOHD = ||
+
+
+CT_BH( SOPBH, MADAN)
+SOPBH = ||
+MADAN = ||
+
+
+PHIEUNO(SOPTN, NGAYTRA, SOTIEN, SOHD, KHTG)
+SOPTN= so phieu tra no, duoc lap ra 1 khi co khach hang mua tra gop HOAC THIEU NO theo cac ke hoach danh cho nguoi no
+NGAYTRA= ngay kh can phai tra tien
+SOTIEN = luong tien kh can phai tra
+SOHD= ||
+KHTG= ma ke hoach tra gop tinh theo nam/thang (chia lam nhieu lan tra)
+
+KEHOACHGOP (MAKHTG, TENKH)
+MAKHTG= Ma cua ke hoach tra gop
+
+

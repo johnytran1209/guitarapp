@@ -1,11 +1,11 @@
 main menu
 for employee:
---able to change their own password
+--able to change their own password v
 --look at the employee list (without the password or security options of course)
---look at the stock list (able to filter by string of word that categorised by type(ac/cl type), wood type, brand, or model name)
+--look at the stock list (able to filter by string of word that categorised by type(ac/cl type), wood type, brand, or model name) 
 --be able to create a sale bill. (create the bill in excel, then bring it to word then to pdf for email and printing, do not give out raw office files as they are easily editted)
 --be able to see the sale's history
---input one new item (input item does not mean that he/she can add in or take away the stock number, only fill in the specs that relate to the new item)
+--input one new item (input item does not mean that he/she can add in or take away the stock number, only fill in the specs that relate to the new item) v
 --able to change their password or security question and answer
 
 for manager:
